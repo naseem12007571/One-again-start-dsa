@@ -1,0 +1,18 @@
+// 344. Reverse String
+
+class Solution {
+public:
+    void reverseString(vector<char>& s) {
+
+        int first=0;
+        int end=s.size()-1;
+
+        while(first<end){
+            swap(s[first],s[end]);
+            first++;
+            end--;
+        }
+     
+        
+    }
+};
