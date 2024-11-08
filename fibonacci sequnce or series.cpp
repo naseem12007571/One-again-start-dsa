@@ -1,3 +1,6 @@
+// what is fibanaci number 
+//previous two number sum =sum
+
 #include<bits/stdc++.h>
 using namespace std;
 int main()
